@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import { Routes, Route, useLocation, useNavigate } from "react-router-dom";
 
 import Home from "./components/pages/Home.js";
@@ -13,9 +13,30 @@ import ReadersNote from "./components/pages/work/ReadersNote.js";
 import './App.css';
 
 function App() {
+  const { pathname } = useLocation();
+  const scrollPosition = useRef(window.scrollY);
+
+  // need to remember scroll position on home page
+  useEffect(() => {
+    if (pathname != "/") {
+      //console.log(pathname);
+      scrollPosition.current = window.scrollY;
+      //console.log(window.scrollY);
+      window.scrollTo(0, 0);
+    }
+    else {
+      //console.log("...");
+      window.scrollTo(0, scrollPosition.current);
+    }
+  }, [pathname]);
+
+  // navbar border doesn't match left gutter when width is small
   return (
-    <div className="w-[93vw] h-screen flex justify-end items-center">
+    <div className="w-[93vw] h-auto flex justify-end items-start">
       <Navbar/>
+      <div className="h-[87vh] w-[14.2vw] mr-[2.4vw]">
+
+      </div>
       <Routes>
         <Route path="/" element={<Home/>}/>
         <Route path="/about" element={<About/>}/>

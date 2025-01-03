@@ -8,5 +8,35 @@ html, body {
     align-items: center;
     margin: 0;
     padding: 0;
-    scrollbar-gutter: stable both-edges;
+    scrollbar-gutter: stable;
+}
+
+@font-face {
+    font-family: 'Aktiv Grotesk Regular';
+    src: url('./fonts/aktiv_grotesk_regular.ttf');
+}
+
+@font-face {
+    font-family: 'Aktiv Grotesk Semibold';
+    src: url('./fonts/aktiv_grotesk_semibold.ttf');
+}
+
+.font-regular {
+    font-family: "Aktiv Grotesk Regular";
+}
+
+.font-semibold {
+    font-family: "Aktiv Grotesk Semibold";
+}
+
+.text-small {
+
+}
+
+.text-normal {
+    font-size: calc(8.118px + 0.00947*100vh);
+}
+
+.text-big {
+
 }
