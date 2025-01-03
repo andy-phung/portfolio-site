@@ -21,9 +21,9 @@ const Navbar = () => {
       </div>
 
       <div className="font-regular text-normal mt-[20px]">
-        ✉ email <br/>
-        ☞ linkedin <br/>
-        🗏 resume <br/>
+        <a href="mailto:phunga@mit.edu">✉ email</a><br/>
+        <a href="https://www.linkedin.com/in/andy-phung/" target="_blank">☞ linkedin</a><br/>
+        <a href="https://drive.google.com/file/d/1zNKA11kJ7u8TD86WlgsEVB6Zdxbr4yhH/view?usp=sharing" target="_blank">🗏 resume</a><br/>
       </div>
     
 
