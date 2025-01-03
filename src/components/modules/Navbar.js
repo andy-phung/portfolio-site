@@ -10,7 +10,7 @@ const Navbar = () => {
         <Link to="/about"> about </Link>
       </div>
       <div className="font-semibold text-normal mt-[17px]">
-        andy phung
+        andy phung.
       </div>
 
       <div className="font-regular text-normal mt-[17px]">

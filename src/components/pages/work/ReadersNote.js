@@ -15,9 +15,8 @@ const ReadersNote = () => {
             print, visual + concept design
           </div>
         </div>
-        <div className="w-[67.5%] leading-[1rem]">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ac sodales odio. Aliquam facilisis ultrices augue quis suscipit. Fusce faucibus aliquam diam, non aliquet velit pharetra in.
-        Sed ultrices, massa at pretium interdum, felis quam finibus est, ac eleifend quam ipsum nec nisl.
+        <div className="w-[67.5%] leading-[1rem] flex flex-col justify-end">
+          A love letter to fiction, writing, and storytelling—presented as an artist's book.
         </div>
       </div>
       <div className="text-normal mt-[15px]">

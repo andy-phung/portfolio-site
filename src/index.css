@@ -9,7 +9,12 @@ html, body {
     margin: 0;
     padding: 0;
     scrollbar-gutter: stable;
-    
+    color: #353939;
+
+}
+
+html {
+    background-color: #f6f6f5;
 }
 
 @font-face {
@@ -41,4 +46,8 @@ html, body {
 
 .text-big {
     font-size: 24.5px;
+}
+
+.inherit {
+    width: inherit;
 }
