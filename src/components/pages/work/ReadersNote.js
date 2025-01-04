@@ -15,7 +15,9 @@ const ReadersNote = () => {
             print, visual + concept design
           </div>
         </div>
-        <div className="w-[67.5%] leading-[1rem] flex flex-col justify-end">
+        <div className="w-[67.5%] leading-[1.075rem] flex flex-col justify-end">
+          <br/>
+          <br/>
           A love letter to fiction, writing, and storytelling—presented as an artist's book.
         </div>
       </div>

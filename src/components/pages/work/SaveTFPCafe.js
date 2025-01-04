@@ -4,7 +4,7 @@ import '../../../index.css';
 
 const SaveTFPCafe = () => {
   return (
-    <div className="font-regular tracking-wide leading-normal-all h-auto w-[76.7vw] mt-[6.5vh] flex flex-col flex-shrink-0 flex-grow-0">
+    <div className="font-regular tracking-[0.01rem] leading-normal-all h-auto w-[76.7vw] mt-[6.5vh] flex flex-col flex-shrink-0 flex-grow-0">
       <Link className="text-small mb-[15px]" to="/">← back to home</Link>
       <div className="text-normal flex justify-between">
         <div className="w-[27.9%] flex flex-col justify-between">
@@ -15,8 +15,8 @@ const SaveTFPCafe = () => {
             print, visual design
           </div>
         </div>
-        <div className="w-[67.5%] leading-[1rem]">
-        As part of a cafe pop-up hosted for students at MIT, I created a series of flyers that were posted around campus, along with a menu that was posted at the venue. These graphics were designed to evoke the feeling of a real establishment offering quality hand-crafted pastries.
+        <div className="w-[67.5%] leading-[1.075rem]">
+        As part of a cafe pop-up for students at MIT, I created a series of flyers that were posted around campus, along with a menu posted at the venue. These graphics were designed to evoke the feeling of a real establishment offering quality hand-crafted pastries.
         </div>
       </div>
       <div className="text-normal mt-[15px]">
@@ -46,7 +46,7 @@ const SaveTFPCafe = () => {
             <li><span className="relative left-[-5px]">"These pastries are handmade."</span></li>
             <li><span className="relative left-[-5px]">"This event is special, unlike those we usually host."</span></li>
           </ul> <br/>
-          The goal was for viewers to look at a flyer and immediately get one of these ideas, before reading the details below or to the side.
+          The goal was for viewers to look at a flyer and immediately get at least one of these ideas, before reading the details below or to the side.
           </div>
         </div>
 

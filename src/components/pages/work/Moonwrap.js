@@ -15,9 +15,8 @@ const Moonwrap = () => {
             web, ui/ux, concept design
           </div>
         </div>
-        <div className="w-[67.5%] leading-[1rem]">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ac sodales odio. Aliquam facilisis ultrices augue quis suscipit. Fusce faucibus aliquam diam, non aliquet velit pharetra in.
-        Sed ultrices, massa at pretium interdum, felis quam finibus est, ac eleifend quam ipsum nec nisl.
+        <div className="w-[67.5%] leading-[1.075rem]">
+        Drawing from the rich history of Vietnamese lunar new year traditions, MOONWRAP is an exploration in generative type, where letters emerge from wrapping a rice cake according to simple rules. This type specimen was my final project for MIT's <a className="underline" href="https://architecture.mit.edu/classes/visual-communication-fundamentals-1" target="_blank">4.053</a>.
         </div>
       </div>
       <div className="text-normal mt-[15px]">
@@ -41,7 +40,11 @@ const Moonwrap = () => {
             PROCESS
           </div>
           <div>
-          Nunc sed varius purus. Pellentesque dignissim turpis et risus pellentesque, non accumsan felis tempus. Suspisse id dui non justo consequat posuere.
+            The object I chose to work with throughout the semester was a leaf. This led me to complete my initial type study by creating an alphabet from leaves and branches (right) using simple rules: stems for stems, and leaves for all other parts of the letterforms.
+            <br/><br/>
+            For my final typeface, I was inspired to both use a similar rule-based format and draw from my Vietnamese heritage, since many traditional Asian foods use banana leaves as wrappings.
+            <br/><br/>
+            Arriving at <i>bánh tét</i> (sticky rice cake) as the medium for my letterforms, I defined wrapping rules to create stems, arms/legs, and other parts of type—and consolidated them all into as few rules as possible.
           </div>
         </div>
 
