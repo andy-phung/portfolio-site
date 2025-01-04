@@ -52,9 +52,17 @@ html {
 }
 
 .leading-normal-all {
-    line-height: 1.2rem;
+    line-height: calc(12.72px + 0.00971*100vh);
 }
 
 .leading-bio {
-    line-height: 1.2rem;
+    line-height: calc(12.72px + 0.00971*100vh);
+}
+
+.leading-desc {
+    line-height: calc(11.35px + 0.01*100vh);
+}
+
+.year-margin {
+    margin-top: calc(1.3192px + 0.04048*100vh);
 }

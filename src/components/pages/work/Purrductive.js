@@ -15,11 +15,11 @@ const Purrductive = () => {
               full stack web, ui/ux
             </div>
           </div>
-          <div className="w-[67.5%] leading-[1.075rem]">
-          Purrductive is a virtual study space where completing tasks can attract cats! Users can join rooms with their friends and complete tasks to unlock new cats, shop items, achievements, and more. This was created over a span of two weeks for <a className="underline" href="https://weblab.mit.edu/" target="_blank">web.lab</a> 2024.
+          <div className="w-[67.5%] leading-desc">
+          Purrductive is a virtual study space where you complete tasks to attract cats! Users can join rooms with their friends and complete tasks to unlock new cats, shop items, achievements, and more. This was created over a span of two weeks for <a className="underline" href="https://weblab.mit.edu/" target="_blank">web.lab</a> 2024.
           </div>
         </div>
-        <div className="text-normal mt-[15px]">
+        <div className="text-normal year-margin">
           2024
         </div>
         <div className="text-normal flex justify-between flex-shrink-0 flex-grow-0">

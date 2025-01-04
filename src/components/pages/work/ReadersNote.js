@@ -15,13 +15,13 @@ const ReadersNote = () => {
             print, visual + concept design
           </div>
         </div>
-        <div className="w-[67.5%] leading-[1.075rem] flex flex-col justify-end">
+        <div className="w-[67.5%] leading-desc flex flex-col justify-end">
           <br/>
           <br/>
           A love letter to fiction, writing, and storytelling—presented as an artist's book.
         </div>
       </div>
-      <div className="text-normal mt-[15px]">
+      <div className="text-normal year-margin">
         2025
       </div>
       <div className="text-normal flex justify-between flex-shrink-0 flex-grow-0">

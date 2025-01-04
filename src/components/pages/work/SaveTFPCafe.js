@@ -15,11 +15,11 @@ const SaveTFPCafe = () => {
             print, visual design
           </div>
         </div>
-        <div className="w-[67.5%] leading-[1.075rem]">
+        <div className="text-normal w-[67.5%] leading-desc">
         As part of a cafe pop-up for students at MIT, I created a series of flyers that were posted around campus, along with a menu posted at the venue. These graphics were designed to evoke the feeling of a real establishment offering quality hand-crafted pastries.
         </div>
       </div>
-      <div className="text-normal mt-[15px]">
+      <div className="text-normal year-margin">
         2024
       </div>
       <div className="text-normal flex justify-between flex-shrink-0 flex-grow-0">
@@ -47,6 +47,8 @@ const SaveTFPCafe = () => {
             <li><span className="relative left-[-5px]">"This event is special, unlike those we usually host."</span></li>
           </ul> <br/>
           The goal was for viewers to look at a flyer and immediately get at least one of these ideas, before reading the details below or to the side.
+          <br/><br/>
+          I illustrated the stages of making a croissant (making dough, proofing, and baking) to communicate the first two, and chose a minimalist illustration style as found in branding for existing cafes (right) to communicate the last.
           </div>
         </div>
 
