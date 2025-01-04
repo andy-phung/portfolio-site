@@ -2,6 +2,15 @@ import React from "react";
 import { Link } from "react-router";
 import '../../../index.css';
 
+import purrductive1 from "../workpics/purrductive1.png"; 
+import purrductive2 from "../workpics/purrductive2.png"; 
+import purrductive3 from "../workpics/purrductive3.png";
+import purrductive4 from "../workpics/purrductive4.png";
+import purrductive5 from "../workpics/purrductive5.png";
+import purrductive6 from "../workpics/purrductive6.png";
+import purrductive7 from "../workpics/purrductive7.png";
+import purrductive8 from "../workpics/purrductive8.jpg";
+
 const Purrductive = () => {
   return (
     <div className="font-regular tracking-wide leading-normal-all h-auto w-[76.7vw] mt-[6.5vh] flex flex-col flex-shrink-0 flex-grow-0">
@@ -27,14 +36,13 @@ const Purrductive = () => {
             <a href="https://purrductive.onrender.com/" target="_blank" className="underline">link to website ↗</a>
           </div>
           <div className="w-[67.5%] flex-col flex-shrink-0 flex-grow-0">
-            <div className="aspect-[782/513] w-full bg-[#D9D9D9] mb-[5px]">
-            </div>
-            <div className="aspect-[782/513] w-full bg-[#D9D9D9]">
-            </div>
+            <img className="mb-[10px] w-full aspect-[782/513]" src={purrductive1}/>
+            <img className="mb-[10px] w-full aspect-[782/513]" src={purrductive2}/>
+            <img className="w-full aspect-[782/513]" src={purrductive3}/>
           </div>
           
         </div>
-        <div className="text-normal mt-[50px] flex justify-between flex-shrink-0 flex-grow-0">
+        <div className="text-normal mt-[115px] flex justify-between flex-shrink-0 flex-grow-0">
           <div className="w-[27.9%] flex flex-col flex-shrink-0 flex-grow-0">
             <div className="mb-[30px]">
               PROCESS
@@ -51,11 +59,13 @@ const Purrductive = () => {
           </div>
   
           <div className="w-[67.5%] flex-col flex-shrink-0 flex-grow-0">
-            <div className="aspect-[782/513] w-full bg-[#D9D9D9] mb-[5px]">
-            </div>
-            <div className="aspect-[782/513] w-full bg-[#D9D9D9]">
-            </div>
-            
+            <img className="w-full mb-[5px]" src={purrductive4}/>
+            <img className="w-full mb-[5px]" src={purrductive5}/>
+            <img className="w-full mb-[5px]" src={purrductive6}/>
+            <img className="w-full mb-[5px]" src={purrductive7}/>
+            <img className="w-full" src={purrductive8}/>
+            <div className="text-normal font-regular leading-normal-all mt-[5px]">one of the rare cats! her name is michi</div>
+
             <div className="h-[6.5vh]">
   
             </div>

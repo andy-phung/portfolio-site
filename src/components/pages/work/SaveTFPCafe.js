@@ -2,6 +2,10 @@ import React from "react";
 import { Link } from "react-router";
 import '../../../index.css';
 
+import savetfp1 from "../workpics/savetfp1.png"; 
+import savetfp2 from "../workpics/savetfp2.png"; 
+import savetfp3 from "../workpics/savetfp3.png"; 
+
 const SaveTFPCafe = () => {
   return (
     <div className="font-regular tracking-[0.01rem] leading-normal-all h-auto w-[76.7vw] mt-[6.5vh] flex flex-col flex-shrink-0 flex-grow-0">
@@ -24,17 +28,15 @@ const SaveTFPCafe = () => {
       </div>
       <div className="text-normal flex justify-between flex-shrink-0 flex-grow-0">
         <div className="mt-[30px]">
-          <a href="" target="_blank" className="underline">link to pdf ↗</a>
+          <a href="https://drive.google.com/file/d/1dHqF6bmSSWPu8iNvGeXpxdbhVUZ-44Vf/view?usp=sharing" target="_blank" className="underline">link to pdf ↗</a>
         </div>
         <div className="w-[67.5%] flex-col flex-shrink-0 flex-grow-0">
-          <div className="aspect-[782/513] w-full bg-[#D9D9D9] mb-[5px]">
-          </div>
-          <div className="aspect-[782/513] w-full bg-[#D9D9D9]">
-          </div>
+          <img className="aspect-[782/513] w-full mb-[10px]" src={savetfp1}/>
+          <img className="aspect-[782/513] w-full" src={savetfp2}/>
         </div>
         
       </div>
-      <div className="text-normal mt-[50px] flex justify-between flex-shrink-0 flex-grow-0">
+      <div className="text-normal mt-[115px] flex justify-between flex-shrink-0 flex-grow-0">
         <div className="w-[27.9%] flex flex-col flex-shrink-0 flex-grow-0">
           <div className="mb-[30px]">
             PROCESS
@@ -53,10 +55,7 @@ const SaveTFPCafe = () => {
         </div>
 
         <div className="w-[67.5%] flex-col flex-shrink-0 flex-grow-0">
-          <div className="aspect-[782/513] w-full bg-[#D9D9D9] mb-[5px]">
-          </div>
-          <div className="aspect-[782/513] w-full bg-[#D9D9D9]">
-          </div>
+          <img className="w-full aspect-[8.5/11]" src={savetfp3}/>
           
           <div className="h-[6.5vh]">
 

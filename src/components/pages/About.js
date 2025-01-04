@@ -25,7 +25,7 @@ const About = () => {
             <div className="text-normal mt-[2px]">
               <div className="">hi, thanks for stopping by! i'm andy, a sophomore at mit passionate about using design to bring stories to life.</div> 
               <div className="mt-[0.75rem]">i come from the bay area, where i'm so grateful to have been supported by my parents, friends, and a lively vietnamese-american community. outside of school, i enjoy baking, dancing, making spotify playlists, going to concerts, and ranking restaurants on beli.</div>
-              <div className="mt-[0.75rem]">as a designer, i hope to create thoughtful, yet fun experiences that are always informed by the people they're made for—and help foster moments that make us gain even a little more appreciation for the world around us.</div>
+              <div className="mt-[0.75rem]">as a designer, i hope to create thoughtful, yet fun experiences that are always informed by the people they're made for—and that help us appreciate the world around us just a little more.</div>
               <div className="mt-[1rem]">until then,<br/>andy</div>
               
             </div>
