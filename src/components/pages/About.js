@@ -13,7 +13,7 @@ import pic6 from "../../pics/pic6.png";
 
 const About = () => {
   return (
-    <div className="h-auto w-[76.7vw] mt-[6.5vh] flex flex-col flex-shrink-0 flex-grow-0">
+    <div className="h-auto w-[76.7vw] mt-[5.5vh] flex flex-col flex-shrink-0 flex-grow-0">
       <div className="h-[93.5vh] w-full">
         <Link className="text-small mb-[15px]" to="/">← back to home</Link>
         <div className="w-full flex flex-shrink-0 flex-grow-0">

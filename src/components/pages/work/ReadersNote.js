@@ -4,14 +4,14 @@ import '../../../index.css';
 
 const ReadersNote = () => {
   return (
-    <div className="h-auto w-[76.7vw] mt-[6.5vh] flex flex-col flex-shrink-0 flex-grow-0">
+    <div className="font-regular tracking-wide leading-normal-all h-auto w-[76.7vw] mt-[6.5vh] flex flex-col flex-shrink-0 flex-grow-0">
       <Link className="text-small mb-[15px]" to="/">← back to home</Link>
       <div className="text-normal flex justify-between">
         <div className="w-[27.9%] flex flex-col justify-between">
-          <div className="text-big mt-[-5px]">
+          <div className="text-big">
             [ reader's note ]
           </div>
-          <div className="text-normal">
+          <div className="text-normal mb-[-1px]">
             print, visual + concept design
           </div>
         </div>

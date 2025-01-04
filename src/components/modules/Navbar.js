@@ -4,7 +4,7 @@ import '../../index.css';
 
 const Navbar = () => {
   return (
-    <div className="h-[87vh] w-[14.2vw] mr-[2.4vw] fixed left-[2.9vw] top-[6.5vh] flex flex-col">
+    <div className="leading-bio h-[87vh] w-[14.2vw] mr-[2.4vw] fixed left-[2.9vw] top-[6.5vh] flex flex-col">
       <div className="min-h-[130px] w-full bg-[#D9D9D9] flex flex-col justify-center items-center">
         <Link to="/"> home </Link>
         <Link to="/about"> about </Link>

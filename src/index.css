@@ -14,7 +14,7 @@ html, body {
 }
 
 html {
-    background-color: #f6f6f5;
+    background-color: #FBF9F5;
 }
 
 @font-face {
@@ -41,7 +41,6 @@ html {
 
 .text-normal {
     font-size: calc(8.118px + 0.00947*100vh);
-    line-height: normal;
 }
 
 .text-big {
@@ -50,4 +49,12 @@ html {
 
 .inherit {
     width: inherit;
+}
+
+.leading-normal-all {
+    line-height: 1.2rem;
+}
+
+.leading-bio {
+    line-height: 1.2rem;
 }
