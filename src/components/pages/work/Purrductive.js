@@ -25,7 +25,7 @@ const Purrductive = () => {
             </div>
           </div>
           <div className="w-[67.5%] leading-desc">
-          Purrductive is a virtual study space where you complete tasks to attract cats! Users can join rooms with their friends and work to unlock new cats, achievements, and more. This was created over a span of two weeks for <a className="underline" href="https://weblab.mit.edu/" target="_blank">web.lab</a> 2024, winning honorable mention.
+          Purrductive is a virtual study space where you complete tasks to attract cats! Users can join rooms with their friends and work to unlock new cats, shop items, and more. This was made over a span of two weeks for <a className="underline" href="https://weblab.mit.edu/" target="_blank">web.lab</a> 2024, winning honorable mention.
           </div>
         </div>
         <div className="text-normal year-margin">
