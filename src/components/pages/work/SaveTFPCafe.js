@@ -57,7 +57,7 @@ const SaveTFPCafe = () => {
         <div className="w-[67.5%] flex-col flex-shrink-0 flex-grow-0">
           <img className="w-full aspect-[8.5/11]" src={savetfp3}/>
           
-          <div className="h-[6.5vh]">
+          <div className="h-[11vh]">
 
           </div>
         </div>

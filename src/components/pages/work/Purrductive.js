@@ -66,7 +66,7 @@ const Purrductive = () => {
             <img className="w-full" src={purrductive8}/>
             <div className="text-normal font-regular leading-normal-all mt-[5px]">one of the rare cats! her name is michi</div>
 
-            <div className="h-[6.5vh]">
+            <div className="h-[11vh]">
   
             </div>
           </div>

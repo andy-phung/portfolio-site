@@ -80,7 +80,7 @@ const Moonwrap = () => {
           </div>
           <img className="w-full" src={moonwrap12}/>
           
-          <div className="h-[6.5vh]">
+          <div className="h-[11vh]">
 
           </div>
         </div>
