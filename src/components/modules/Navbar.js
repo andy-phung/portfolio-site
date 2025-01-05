@@ -2,8 +2,8 @@ import React from "react";
 import { Link } from "react-router";
 import '../../index.css';
 
-import camera from "./navbarpics/camera_no_artboard.png";
-import polaroid from "./navbarpics/polaroid_no_artboard.png";
+import camera from "./navbarpics/camera_linework_only.png";
+import polaroid from "./navbarpics/polaroid_linework_only.png";
 
 const Navbar = () => {
   return (
