@@ -1,5 +1,6 @@
 import React from "react";
 import { Outlet, Link } from "react-router-dom";
+
 import '../../index.css';
 
 import moonwrap from "./landingpics/moonwrap.png";

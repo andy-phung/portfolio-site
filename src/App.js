@@ -1,5 +1,6 @@
 import React, { useState, useRef, useEffect } from "react";
 import { Routes, Route, useLocation, useNavigate } from "react-router-dom";
+import ReactGA from "react-ga4";
 
 import Home from "./components/pages/Home.js";
 import About from "./components/pages/About.js"
@@ -10,11 +11,30 @@ import SaveTFPCafe from "./components/pages/work/SaveTFPCafe.js";
 import Purrductive from "./components/pages/work/Purrductive.js";
 import ReadersNote from "./components/pages/work/ReadersNote.js";
 
+
+
+
 import './App.css';
 
 function App() {
   const { pathname } = useLocation();
   const scrollPosition = useRef(window.scrollY);
+
+  ReactGA.initialize("G-GP5RH750D9");
+
+  useEffect(() => {
+    ReactGA.send({ 
+      hitType: 'pageview', 
+      page: pathname
+    });
+  }, []);
+
+  useEffect(() => {
+    ReactGA.send({ 
+      hitType: 'pageview', 
+      page: pathname
+    });
+  }, [pathname]);
 
   // need to remember scroll position on home page
   useEffect(() => {
@@ -29,6 +49,8 @@ function App() {
       window.scrollTo(0, scrollPosition.current);
     }
   }, [pathname]);
+
+  
 
   // navbar border doesn't match left gutter when width is small
   return (
