@@ -27,12 +27,21 @@ html {
     src: url('./fonts/aktiv_grotesk_semibold.ttf');
 }
 
+@font-face {
+    font-family: 'Aktiv Grotesk Italic';
+    src: url('./fonts/aktiv_grotesk_italic.ttf');
+}
+
 .font-regular {
     font-family: "Aktiv Grotesk Regular";
 }
 
 .font-semibold {
     font-family: "Aktiv Grotesk Semibold";
+}
+
+.font-italic {
+    font-family: "Aktiv Grotesk Italic";
 }
 
 .text-small {
@@ -65,4 +74,36 @@ html {
 
 .year-margin {
     margin-top: calc(1.3192px + 0.04048*100vh);
+}
+
+.navbar-hover-home {
+    
+}
+
+.navbar-hover-home:hover {
+    margin-top: -5px;
+}
+
+.navbar-hover-home .home-text {
+    opacity: 0;
+}
+
+.navbar-hover-home:hover .home-text {
+    opacity: 1;
+}
+
+.navbar-hover-about {
+    
+}
+
+.navbar-hover-about:hover {
+    margin-top: -5px;
+}
+
+.navbar-hover-about .about-text {
+    opacity: 0;
+}
+
+.navbar-hover-about:hover .about-text {
+    opacity: 1;
 }

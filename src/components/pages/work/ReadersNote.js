@@ -2,6 +2,8 @@ import React from "react";
 import { Link } from "react-router";
 import '../../../index.css';
 
+import readersnote from "../workpics/readersnote.png";
+
 const ReadersNote = () => {
   return (
     <div className="font-regular tracking-wide leading-normal-all h-auto w-[76.7vw] mt-[6.5vh] flex flex-col flex-shrink-0 flex-grow-0">
@@ -29,8 +31,7 @@ const ReadersNote = () => {
           coming soon!
         </div>
         <div className="w-[67.5%] flex-col flex-shrink-0 flex-grow-0">
-          <div className="aspect-[782/513] w-full bg-[#D9D9D9]">
-          </div>
+          <img className="w-full" src={readersnote}/>
         </div>
       </div>
     </div>

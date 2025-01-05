@@ -56,9 +56,9 @@ const Moonwrap = () => {
             <br/><br/>
             For my final typeface, I was inspired to use a similar rule-based format and also draw from my Vietnamese heritage, since many traditional Asian foods use banana leaves as wrappings.
             <br/><br/>
-            I arrived at <i>bánh tét</i> (sticky rice cake) as the medium for my letterforms, and defined wrapping rules to create stems, arms/legs, and other parts of type—and consolidated them all into as few rules as possible.
+            I arrived at <span className="font-italic">bánh tét</span> (sticky rice cake) as the medium for my letterforms, and defined wrapping rules to create stems, arms/legs, and other parts of type—and consolidated them all into as few rules as possible.
             <br/><br/>
-            Since <i>bánh tét</i> is traditionally made for lunar new year, I decided to theme the type specimen for this typeface based on the various crafting activity guides and posters that you would normally find at lunar new year festivals.
+            Since <span className="font-italic">bánh tét</span> is traditionally made for lunar new year, I decided to theme the type specimen for this typeface based on the various crafting activity guides and posters that you would normally find at lunar new year festivals.
           </div>
         </div>
 
