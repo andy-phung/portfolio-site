@@ -23,7 +23,8 @@ const About = () => {
           </div>
           <div className="w-[40.4%] mt-[-5px] ml-[20px] flex flex-col flex-shrink-0 flex-grow-0">
             <div className="text-normal mt-[2px]">
-              <div className=""><span className="">hi, thanks for stopping by!</span><br/><br/>i'm andy, a sophomore at mit passionate about using design to bring stories to life.</div> 
+              <div className="">hi, thanks for stopping by!</div>
+              <div className="mt-[0.75rem]">i'm andy, a sophomore at mit passionate about using design to bring stories to life.</div> 
               <div className="mt-[0.75rem]">i come from the bay area, where i'm grateful to have been supported by my parents, friends, and a lively vietnamese-american community. outside of school, i enjoy baking, dancing, making spotify playlists, going to concerts, and ranking restaurants on beli.</div>
               <div className="mt-[0.75rem]">as a designer, i hope to create thoughtful, yet fun experiences that are always informed by the people they're made for—and that help us appreciate the world around us just a little more.</div>
               <div className="mt-[1rem]">until then,<br/>andy</div>
