@@ -20,7 +20,7 @@ function App() {
   const { pathname } = useLocation();
   const scrollPosition = useRef(window.scrollY);
 
-  ReactGA.initialize("G-GP5RH750D9");
+  ReactGA.initialize("G-QJ0FL104XV");
 
   useEffect(() => {
     ReactGA.send({ 
