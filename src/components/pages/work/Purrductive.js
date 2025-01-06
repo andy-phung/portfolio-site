@@ -52,7 +52,7 @@ const Purrductive = () => {
             <br/><br/>
             Going into this class, I knew I wanted to make some sort of productivity tool. Using inspiration from various virtual study rooms (Fiveable Rooms) and task boards (Notion), along with my love for cats, I came up with the basic idea: completing tasks to spawn cats!
             <br/><br/>
-            Aside from the <a className="underline" href="https://weblab.mit.edu/about/#rules" target="_blank">required features for web.lab websites</a>, I added rooms with join codes, user profiles, achievements, and rare cats with a low spawn rate. These features were all inspired by cat games I've loved playing in the past: Neko Atsume, Cats and Soup, Purrgatory, and more.
+            Aside from the <a className="underline" href="https://weblab.mit.edu/competition_info_2025.pdf" target="_blank">required features for web.lab websites</a>, I added rooms with join codes, user profiles, achievements, and rare cats with a low spawn rate. These features were all inspired by cat games I've loved playing in the past: Neko Atsume, Cats and Soup, Purrgatory, and more.
             <br/><br/>
             The overall look of the interface was inspired by MMO games like Club Penguin, and designed to create a warm, cozy atmosphere. In addition, the UI was designed to be as simple as possible, with only a sidebar and a single modal component for most information. 
             </div>
