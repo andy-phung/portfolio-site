@@ -32,7 +32,7 @@ const Navbar = () => {
       <div className="font-regular text-normal mt-[20px]">
         <a href="mailto:phunga@mit.edu">✉ email</a><br/>
         <a href="https://www.linkedin.com/in/andy-phung/" target="_blank">☞ linkedin</a><br/>
-        <a href="https://drive.google.com/file/d/1zNKA11kJ7u8TD86WlgsEVB6Zdxbr4yhH/view?usp=sharing" target="_blank">🗏 resume</a><br/>
+        <a href="https://drive.google.com/file/d/1LZEf8XI4m1w7Ma9OJ5XviqSv9cJCcUC0/view?usp=sharing" target="_blank">🗏 resume</a><br/>
       </div>
     
 

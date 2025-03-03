@@ -10,6 +10,8 @@ import Moonwrap from "./components/pages/work/Moonwrap.js";
 import SaveTFPCafe from "./components/pages/work/SaveTFPCafe.js";
 import Purrductive from "./components/pages/work/Purrductive.js";
 import ReadersNote from "./components/pages/work/ReadersNote.js";
+import Scar from "./components/pages/work/Scar.js";
+import MemoryLoops from "./components/pages/work/MemoryLoops.js";
 
 
 
@@ -66,6 +68,8 @@ function App() {
         <Route path="/savetfp-bakery-cafe" element={<SaveTFPCafe/>}/>
         <Route path="/purrductive" element={<Purrductive/>}/>
         <Route path="/readers-note" element={<ReadersNote/>}/>
+        <Route path="/scar" element={<Scar/>}/>
+        <Route path="/memory-loops" element={<MemoryLoops/>}/>
       </Routes>
     </div>
   );
