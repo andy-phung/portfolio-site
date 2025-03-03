@@ -7,6 +7,8 @@ import moonwrap from "./landingpics/moonwrap.png";
 import savetfp from "./landingpics/savetfp.png";
 import purrductive from "./landingpics/purrductive.png";
 import readersnote from "./landingpics/readersnote.png";
+import scar from "./landingpics/scar.png";
+import memoryloops from "./landingpics/memoryloops.png";
 
 // switch to woff + wait until everything loaded
 
@@ -59,25 +61,13 @@ const Home = () => {
         </div>
         <div className="w-[50%] h-full flex flex-col items-end shrink-0">
             <Link to="/scar" className="w-[98%] mb-[28px]">
-                <img className="aspect-[571/368] w-full" src={savetfp}/>
+                <img className="aspect-[571/368] w-full" src={scar}/>
                 <div className="flex flex-col flex-shrink-0">
                     <div className="text-normal mt-[2px]">
                         scar
                     </div>
                     <div className="text-small mt-[-3px]">
-                        fabrication, interaction design
-                    </div>
-                </div>
-            </Link>
-
-            <Link to="/memory-loops" className="w-[98%] mb-[28px]">
-                <img className="aspect-[571/368] w-full" src={savetfp}/>
-                <div className="flex flex-col flex-shrink-0">
-                    <div className="text-normal mt-[2px]">
-                        memory loops
-                    </div>
-                    <div className="text-small mt-[-3px]">
-                        photo
+                        fab, interaction design
                     </div>
                 </div>
             </Link>
